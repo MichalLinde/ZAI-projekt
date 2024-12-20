@@ -13,7 +13,7 @@ function App() {
 
 	return (
 		<div className="App" id={mode}>
-			<BrowserRouter>
+			<BrowserRouter basename="/ZAI-projekt">
 				<Header />
 				<Routes>
 					<Route path="/" element={<HomePage />} />
